@@ -1,0 +1,476 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+div
+{
+	float: left;
+}
+.wrapper
+{
+	height:auto;
+	width: 100%;
+	/*background-color: red;*/
+}
+.header
+{
+	height: 60px;
+	width: 100%;
+	background-color: black;
+	position: fixed;
+	z-index: 1;
+}
+.header img
+{
+	margin: 15px 0 0 50px;
+	/*background-color: red;*/
+	cursor: pointer;
+
+}
+
+.navi
+{
+	/*background-color: red;*/
+	/*text-align: center;*/
+	height: 60px;
+	width: 45%;
+	float: right;
+}
+.navi ul li
+{
+	list-style-type: none;
+	float: left;
+	line-height: 70px;
+	/*background-color: red;*/
+	margin: 0 0 0 33px;
+	/*padding-left: 5px;
+	padding-right: 5px;
+	*/font-family: migrate pro;
+	font-size: 17px;
+	color: white;
+}
+.navi ul li:hover
+{
+	color: orange;
+	cursor: pointer;
+}
+.mainimg
+{
+	height: 590px;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 60px;
+}
+.text1
+{
+	height: 300px;
+	width: 450px;
+	/*background-color: red;*/
+	position: absolute;
+	float: left;
+	margin: -670px 0 0 170px;
+}
+.textpart
+{
+	text-align: center;
+	color:white;
+	font-size: 50px;
+	line-height: 70px;
+	font-family:arial;
+	font-weight: bold;
+}
+.textpart span
+{
+	font-size: 70px;
+}
+.info
+{
+	height: 520px;
+	width: 100%;
+	/*background-color: red;*/
+	color: white;
+	font-size: 43px;
+	text-align: center;
+	line-height: 70px;
+	font-family: arial;
+	color: black;
+	font-weight: bold;
+	word-spacing: -3px;
+}
+
+
+.innerdiv
+{
+	height: 380px;
+	width: 80%;
+	/*background-color: blue;*/
+	margin: 0 0 0 10%;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+
+}
+
+.divpart1
+{
+	height:220px;
+	width: 26.45%;
+	/*background-color: red;*/
+	margin-top: 70px;
+	border:1px solid gray;
+
+}
+.divpart1 h4
+{
+	font-size: 25px;
+	color: red;
+}
+.divpart1 p
+{
+	font-size: 18px;
+	text-align: center;
+	line-height: 25px;
+	color: grey;
+	margin-top: 30px;
+}
+.divpart2
+{
+	height:220px;
+	width: 26.45%;
+	/*background-color: yellow;*/
+	margin-left: 10%;
+	margin-top: 70px;
+	border:1px solid gray;
+
+}
+.divpart2 h4
+{
+	font-size: 25px;
+	color: red;
+}
+.divpart2 p
+{
+	font-size: 18px;
+	text-align: center;
+	line-height: 25px;
+	color: grey;
+	margin-top: 30px;
+}
+.divpart3
+{
+	height:220px;
+	width: 26.45%;
+	/*background-color: red;*/
+	margin-left: 10%;
+	margin-top: 70px;
+	border:1px solid gray;
+
+}
+.divpart3 h4
+{
+	font-size: 25px;
+	color: red;
+}
+.divpart3 p
+{
+	font-size: 18px;
+	text-align: center;
+	line-height: 25px;
+	color: grey;
+	margin-top: 30px;
+}
+.info span
+{
+	text-align: center;
+	line-height: 100px;
+}
+
+.longimg
+{
+	height: 280px;
+	width: 100%;
+	/*background-color: red;*/
+}
+.image1
+{
+	height: 280px;
+	width: 25%;
+	/*overflow: hidden;*/
+	
+}
+.image1 img
+{
+	height: 280px;
+	width: 100%;
+}
+
+.image2
+{
+	height: 280px;
+	width: 25%;
+	overflow: hidden;
+	
+}
+.image2 img
+{
+	height: 320px;
+	width: 100%;
+}
+
+.image3
+{
+	height: 280px;
+	width: 25%;
+	overflow: hidden;
+	
+}
+.image3 img
+{
+	height: 280px;
+	width: 100%;
+	
+}
+.image4
+{
+	height: 280px;
+	width: 25%;	
+	overflow: hidden;
+}
+.image4 img
+{
+	height: 280px;
+	width: 120%;
+
+	
+}
+
+.imghover1  
+{
+	height: 280px;
+	width: 25%;
+	background-color: black;
+	/*position: absolute;*/
+	margin-top: -280px;
+	opacity: 0;
+	color: white;
+}
+.imghover1:hover
+{
+	cursor: pointer;
+	opacity: 0.6;
+}
+.imghover2
+{
+	height: 280px;
+	width: 25%;
+	background-color: black;
+	/*position: absolute;*/
+	margin: -280px 0 0 25%;
+	opacity: 0;
+} 
+.imghover2:hover
+{
+	cursor: pointer;
+	opacity: 0.6;
+}
+.imghover2 span
+{
+	color: white;
+	position: absolute;
+	z-index: 1;
+	line-height: 20px;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	margin-top:200px;
+	margin-left: 50px;
+
+}
+.imghover2 h1
+{
+	color: red;
+	font-size: 30px;
+}
+
+.imghover3
+{
+	height: 280px;
+	width: 25%;
+	background-color: black;
+	/*position: absolute;*/
+	margin:-280px 0 0 50%;
+	opacity: 0;
+}
+.imghover3:hover
+{
+	cursor: pointer;
+	opacity: 0.6;
+}
+.imghover4
+{
+	height: 280px;
+	width: 25%;
+	background-color: black;
+	/*position: absolute;*/
+	margin: -280px 0 0 75%;
+	opacity: 0;
+}
+.imghover4:hover
+{
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+.perinfo
+{
+	height: 350px;
+	width: 100%;
+	/*background-color: red;*/
+	font-size: 40px;
+	text-align: center;
+	line-height: 70px;
+	font-family: arial;
+	font-weight: bold;
+	color: black;
+}
+
+.person
+{
+	height: 280px;
+	width: 80%;
+	/*background-color: yellow;*/
+	margin-left: 10%;
+	border-top: 1px solid gray;
+}
+.person1
+{
+	height: 280px;
+	width: 50%;
+	/*background-color: green;*/
+}
+
+
+.person1face
+{
+	height: 100px;
+	width: 20%;
+	/*background-color: red;*/
+	overflow: hidden;
+	margin:100px 0 0 50px;
+	border-radius: 200px;
+}
+.person1face img
+{
+	height: 100px;
+	width: 110%;
+
+}
+
+.person2
+{
+	height: 280px;
+	width: 50%;
+	/*background-color: blue;*/
+}
+.person2face
+{
+	height: 100px;
+	width: 20%;
+	/*background-color: red;*/
+	overflow: hidden;
+	margin:100px 0 0 50px;
+	border-radius: 200px;
+
+	/*margin:100px 0 0 50px;*/
+}
+
+.person2face img
+{
+	height: 110px;
+	width: 110%;
+
+}
+
+/*end of person info*/
+
+.person1text span
+{
+	font-size: 20px;
+	text-align: center;
+	color: red;
+	font-family: calibri;
+	font-weight: bold;
+	/*line-height: 100px;*/
+	line-height: 200px;
+	margin-left: 50px;
+}
+.person2text span
+{
+	font-size: 20px;
+	text-align: center;
+	color: red;
+	font-family: calibri;
+	font-weight: bold;
+	/*line-height: 100px;*/
+	line-height: 200px;
+	margin-left: 50px;
+}
+.footer
+{
+	height: 200px;
+	width: 100%;
+	background-color: black;
+}
+.innerfooter
+{
+	height: 160px;
+	width: 80%;
+	/*background-color: red;*/
+	margin-left: 10%;
+	margin-top: 20px;
+}
+.footer1
+{
+	height: 160px;
+	width: 25%;
+	/*background-color: blue;*/
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	border-right: 1px solid grey;
+	font-family: calibri;
+}
+.footer ul li
+{
+	list-style-type: none;
+}
+.footer2
+{
+	height: 160px;
+	width: 25%;
+	/*background-color: green;*/
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	color: white;
+	border-right: 1px solid grey;
+	font-family: calibri;
+}
+.footer3
+{
+	height: 160px;
+	width: 49%;
+	/*background-color: yellow;*/
+	text-align: center;
+	font-family: calibri;
+	font-size: 20px;
+	color: white;
+	line-height: 30px;
+}
+
+.footer3 span
+{
+	text-align: center;
+	margin-left: 250px;
+}
