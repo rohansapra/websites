@@ -1,0 +1,387 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+div
+{
+	float: left;
+}
+@font-face
+{
+	font-family: own;
+	src:url('fonts/King-Basil-Lite.otf');
+}
+.wrapper
+{
+	height: auto;
+	width: 100%;
+	/*background-color: grey;*/
+	/*overflow: hidden;*/
+}
+
+
+.header
+{
+	height: 120px;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	z-index: 1;
+
+}
+/*.font1
+{
+	font-family: calibri;
+	font-size: 10px;
+	text-align: left;
+}
+*/
+.logo
+{
+	height: 70px;
+	width: 100%;
+	font-family: vivaldi;
+	text-align: center;
+	line-height: 60px;
+	color: black;
+	transition:500ms;
+	text-transform: uppercase;
+	/*margin: 0 0 0 50px;*/
+	/*background-color: black;*/
+
+}
+.logo:hover
+{
+	/*background-color:black;*/
+	color:#efcca2;
+	cursor: pointer;
+}
+
+.navi
+{
+	/*background-color: grey;*/
+	height: 50px;
+	width: 100%;
+	transition:500ms;
+}
+
+.navi ul li
+{
+	/*list-style-type: none;*/
+	float: left;
+	text-transform: uppercase;
+	width: 180px;
+	/*padding-left: 20px;
+	padding-right: 20px;*/
+	font-family: rockwell;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 0 0 70px;
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	/*background-color: black;*/
+}
+.navi ul li:hover
+{
+	cursor: pointer;
+	/*background-color: black;*/
+	color:#efcca2;
+}
+
+
+.navi ul li ul li
+{
+	float: none;
+	/*background-color: black;*/
+	padding-right: 0px;
+	padding-left: 0px;
+	margin: 0 0 0 0;
+	list-style-type: none;
+	color: white;
+	background-color: black;
+}
+
+.navi ul li .childnavi1
+{
+	display: none;
+}
+
+.navi ul li .parentnavi1 .childnavi1:hover
+{
+	cursor: pointer;
+	background-color: red;
+	color: black;
+}
+
+
+.parentnavi1:hover > .childnavi1
+{
+	display: block;
+}
+
+.navi ul li .childnavi2
+{
+	display: none;
+}
+
+.navi ul li .parentnavi2 .childnavi2:hover
+{
+	cursor: pointer;
+	background-color: red;
+	color: black;
+}
+
+
+.parentnavi2:hover > .childnavi2
+{
+	display: block;
+}
+.navi ul li .childnavi3
+{
+	display: none;
+}
+
+.navi ul li .parentnavi3 .childnavi3:hover
+{
+	cursor: pointer;
+	background-color: red;
+	color: black;
+}
+
+
+.parentnavi3:hover > .childnavi3
+{
+	display: block;
+}
+
+
+/*start of content part 1*/
+.content1
+{
+	height:700px;
+	width: 100%;
+	overflow: hidden;
+	/*background-color: grey;*/
+	
+
+}
+.image
+{
+	height: 300px;
+	width: 80%;
+	/*float: left;*/
+}
+.text
+{
+	font-size: 40px;
+	position: relative;
+	text-align: left;
+	font-weight: bold;
+	font-family: calibri;
+	margin: 0px 0 0 100px;
+	float: left;
+
+
+}
+.text1
+{
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+	margin:100px 0 0 -400px;
+	font-weight: bold;
+	font-family: calibri;
+	/*text-align: left;*/
+}
+
+.blackline
+{
+	height: 3px;
+	width: 100%;
+	background-color: black;
+	
+}
+
+.info
+{
+	height: 50px;
+	width: 100%;
+	background-color: white;
+	font-size: 100x;
+	font-weight: bold;
+	font-family: times new roman;
+	text-align: center;
+	/*background-color: green;*/
+	float: left;
+	line-height: 50px;
+
+}
+.myname
+{
+	height: 100px;
+	width: 100%;
+	font-family: vivaldi;
+	font-size: 70px;
+	text-align: center;
+	font-weight: bold;
+	/*background-color: red;*/
+}
+
+.prof
+{
+	height: 50px;
+	width: 100%;
+	/*background-color: red;*/
+	text-align: center;
+	font-family: times new roman;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*start of my example div*/
+.example1
+{
+	height: 50px;
+	width: 100%;
+	/*background-color: red;*/
+	text-align: center;
+	font-family: times new roman;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 50px;
+	margin-top: 100px;
+}
+.example2
+{
+	height: 50px;
+	width: 100%;
+	/*background-color: red;*/
+	text-align: center;
+	font-size: times new roman;
+	font-weight: bold;
+	font-size: 18px;
+	/*line-height: 40px;*/
+
+}
+
+
+.contentdiv
+{
+	height: 800px;
+	width: 100%;
+	/*background-color: red;*/
+}
+
+.conimage
+{
+	height: 300px;
+	width: 20%;
+	/*background-color: red;*/
+	margin: 0px 70px 100px 70px;
+	/*opacity: 0;*/
+	/*border-image: 10px;*/
+}
+
+.conimage:hover
+{
+	cursor:pointer;
+	transition:500ms;
+	/*mix-blend-mode:luminosity;*/
+}
+.textpart
+{
+	/*text-align: center;*/
+	font-size: 20px;
+	font-family: times new roman;
+	font-style: italic;
+	font-weight: bold;
+}
+.footer
+{
+	height: 360px;
+	width: 100%;
+	/*background-color: red;*/
+	/*overflow: hidden;*/
+}
+.footerup
+{
+	height: 2px;
+	width: 100%;
+	background-color: black;
+}
+
+.left
+{
+	height: 350px;
+	width: 50%;
+	/*background-color: blue;*/
+}
+.left1
+{
+	height: 350px;
+	width: 40%;
+	/*background-color:red;*/
+	margin-left: -5%;
+
+}
+.left2
+{
+	height: 350px;
+	width: 60%;
+	background-color: white;
+	font-size: 28px;
+	color:black;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-family: vivaldi;
+}
+.lefttxt
+{
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+
+}
+.right
+{
+	height: 350px;
+	width: 50%;
+	background-color: orange;
+	overflow: hidden;
+}
+.right img
+{
+	height: 350px;
+	width: 100%;
+	overflow: hidden;
+
+}
+.footerlogo
+{
+	height: 200px;
+	width: 100%;
+	/*background-color: red;*/
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+.table1
+{
+	margin:0 0 0 380px;
+	background-color: white;
+}
+
+.imgr:hover
+{
+	background-color: #efcca2;
+	cursor: pointer;
+
+}
+
